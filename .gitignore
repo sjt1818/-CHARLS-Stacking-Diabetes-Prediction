@@ -1,0 +1,50 @@
+# 系统
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 原始数据
+*.csv
+*.xlsx
+!**/all_metrics.csv
+char_ls_*.csv
+charls_*.csv
+*_dataset_*.csv
+
+# 模型缓存
+*.pkl
+!**/tuned_stacking_results/*.pkl
+**/grid_search_cache.pkl
+**/GridSearchCV_*.pkl
+
+# 论文文档（.docx 论文正文不包含）
+基于 Stacking 集成算法的糖尿病预测模型研究*.docx
+基于 Stacking 集成算法的糖尿病预测模型研究源文件.docx
+基于集成学习的中老年人群 2 型糖尿病风险预测研究*.docx
+*过程.docx
+*总结.docx
+*思路.docx
+*创新点.docx
+小结.docx
+
+# 中间结果目录
+.lasso_results/
+lasso_results/
+rf_results/
+rf_optimized_results/
+xgboost_results/
+lgb_results/
+logistic_results/
+svm_results/
+svm_optimized_results/
+model_results/
+stacking_4models_results/
+11111/
+核心数据/
+废 神经网络0.84淘汰/
+集成pkl/
+
+# other
+.accelerate/
+node_modules/
